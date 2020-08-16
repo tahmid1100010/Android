@@ -6,16 +6,16 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
-    android:background="@color/colorPrimaryDark"
+    android:background="@color/colorAccent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Hi there!"
-        android:textColor="@color/colorAccent"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        android:textAlignment="center"
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/btn"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="125dp"
         />
 </LinearLayout>

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">FirstApplication</string>
+    <string name="btn">Move</string>
 </resources>
